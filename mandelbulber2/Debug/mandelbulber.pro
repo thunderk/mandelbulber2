@@ -31,6 +31,8 @@ TEMPLATE = app
 
 CONFIG += qt thread debug
 
+INCLUDEPATH += ../qt ../src
+
 SOURCES +=  ../src/algebra.cpp\
 			../src/animation_frames.cpp\
 			../src/animation_flight.cpp\
